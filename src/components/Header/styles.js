@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 261px;
   height: 131px;
-  padding: 40px 100px;
 `;
 
 export const NameOfCompany = styled.p`
