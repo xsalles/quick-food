@@ -31,7 +31,7 @@ export default function Foods({ width }) {
       </Food>
       <Food>
         <ImageFood width="250px" src={GarlicSalad} />
-        <NameFood width="162px" >Garlic Salad</NameFood>
+        <NameFood width="162px">Garlic Salad</NameFood>
         <DescriptionFood>
           Caprese is a classic Italian salad made with sliced tomatoes.
         </DescriptionFood>
