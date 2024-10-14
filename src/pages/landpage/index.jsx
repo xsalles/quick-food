@@ -1,3 +1,4 @@
+import AboutUs from "../../components/AboutUs/index.jsx";
 import Benefits from "../../components/Benefits/index.jsx";
 import Dishes from "../../components/Dishes/index.jsx";
 import Feedback from "../../components/Feedback/index.jsx";
@@ -11,8 +12,9 @@ export default function QuickFood() {
       <Header />
       <Home />
       <Benefits />
-      <Dishes/>
-      <Feedback/>
+      <Dishes />
+      <Feedback />
+      <AboutUs />
     </Container>
   );
 }
