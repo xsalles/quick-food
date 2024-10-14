@@ -12,4 +12,7 @@ export const Global = createGlobalStyle`
   box-sizing: border-box;
 }
 
+button{
+  cursor: pointer;
+}
 `;
