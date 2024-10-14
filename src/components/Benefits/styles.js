@@ -7,7 +7,7 @@ export const ContainerBenefits = styled.div`
   justify-content: center;
   align-items: center;
   padding: 100px;
-  margin-top: 281px;
+  margin-top: 181px;
   gap: 60px;
 `;
 

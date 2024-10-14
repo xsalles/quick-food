@@ -6,7 +6,6 @@ export const ContainerFeedback = styled.div`
   width: 1439px;
   height: 747px;
   padding: 100px;
-  margin-top: 60px;
   gap: 60px;
   align-items: center;
 `
