@@ -9,7 +9,7 @@ export const ContainerBenefits = styled.div`
   padding: 100px;
   margin-top: 181px;
   gap: 60px;
-`;
+`
 
 
 
