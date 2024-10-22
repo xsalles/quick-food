@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
-  margin-top: 50px;
-  justify-content: center;
+  margin-top: 20px;
   gap: 261px;
   height: 131px;
 `;
@@ -13,6 +12,7 @@ export const NameOfCompany = styled.p`
   font-weight: 500;
   text-decoration: underline;
   font-size: 24px;
+  margin-top: 20px;
 `;
 
 export const Menu = styled.div`
@@ -22,6 +22,7 @@ export const Menu = styled.div`
   height: 19px;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 20px;
 `;
 
 export const OptionsGray = styled.p`
@@ -51,7 +52,7 @@ export const Search = styled.img`
   cursor: pointer;
   width: 40px;
   height: 40px;
-`
+`;
 
 export const ShoppingCart = styled.img`
   cursor: pointer;
@@ -63,10 +64,10 @@ export const Login = styled.button`
   width: 105px;
   height: 51px;
   text-align: center;
-  border: 1px solid #00A000;
+  border: 1px solid #00a000;
   border-radius: 10px;
-  color: #00A000;
+  color: #00a000;
   background: transparent;
   font-weight: 600;
   font-size: 16px;
-`
+`;
