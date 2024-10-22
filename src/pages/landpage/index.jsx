@@ -6,22 +6,32 @@ import Header from "../../components/Header/index.jsx";
 import Home from "../../components/Home/index.jsx";
 import Newsletter from "../../components/Newsletter/index.jsx";
 import { Container } from "./styles.js";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 export default function QuickFood() {
   return (
     <Container>
-      <Header />
-      <Home />
-      <Benefits />
-      <Dishes />
-      <Feedback />
-      <AboutUs />
-      <Newsletter
-        title="Subscribe to our Newsteller"
-        description="Join Us and Get Update on our Available Product."
-        text="Enter your email address"
-        textButton="Subscribe "
-      />
+      <BrowserRouter>
+      <Header/>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/benefits" element={<Benefits />} />
+          <Route path="/dishes" element={<Dishes />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route
+            path="/newsletter"
+            element={
+              <Newsletter
+                title="Subscribe to our Newsteller"
+                description="Join Us and Get Update on our Available Product."
+                text="Enter your email address"
+                textButton="Subscribe "
+              />
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </Container>
   );
 }

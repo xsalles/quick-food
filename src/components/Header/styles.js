@@ -24,14 +24,11 @@ export const Menu = styled.div`
   font-weight: 500;
 `;
 
-export const OptionGreen = styled.p`
-  color: #00a000;
-`;
-
 export const OptionsGray = styled.p`
   display: flex;
   color: #999999;
   gap: 40px;
+  cursor: pointer;
 `;
 
 export const Options = styled.div`
@@ -72,5 +69,4 @@ export const Login = styled.button`
   background: transparent;
   font-weight: 600;
   font-size: 16px;
-
 `
