@@ -14,12 +14,14 @@ import Look from "../../assets/images/imagesHeader/search.png";
 import Cart from "../../assets/images/imagesHeader/shoppingCart.png";
 import { Link } from "react-router-dom";
 
-const optionsGray = ["Home", "Products", "Contact", "About", "Feedback"];
+const optionsGray = [ "Products", "Contact", "About", "Feedback"];
 
 export default function Header() {
   return (
     <HeaderContainer>
-      <NameOfCompany>QUICKFOOD</NameOfCompany>
+      <Link to={"/"}>
+        <NameOfCompany>QUICKFOOD</NameOfCompany>
+      </Link>
       <Menu>
         <OptionsGray>
           {optionsGray.map((option) => (

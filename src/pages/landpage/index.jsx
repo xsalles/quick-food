@@ -14,7 +14,7 @@ export default function QuickFood() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/products" element={<Dishes />} />
           <Route path="/feedback" element={<Feedback />} />
