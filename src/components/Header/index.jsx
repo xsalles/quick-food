@@ -12,6 +12,7 @@ import {
 
 import Look from "../../assets/images/imagesHeader/search.png";
 import Cart from "../../assets/images/imagesHeader/shoppingCart.png";
+import { Link } from "react-router-dom";
 
 const optionsGray = ["Home", "Products", "Contact", "About", "Feedback"];
 
@@ -22,7 +23,9 @@ export default function Header() {
       <Menu>
         <OptionsGray>
           {optionsGray.map((option) => (
-            <p>{option}</p>
+            <Link to={`/${option.toLowerCase()}`}>
+              <p>{option}</p>
+            </Link>
           ))}
         </OptionsGray>
       </Menu>

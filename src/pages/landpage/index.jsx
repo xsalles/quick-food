@@ -12,15 +12,15 @@ export default function QuickFood() {
   return (
     <Container>
       <BrowserRouter>
-      <Header/>
+        <Header />
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/benefits" element={<Benefits />} />
-          <Route path="/dishes" element={<Dishes />} />
+          <Route path="/products" element={<Dishes />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/about" element={<AboutUs />} />
           <Route
-            path="/newsletter"
+            path="/contact"
             element={
               <Newsletter
                 title="Subscribe to our Newsteller"
